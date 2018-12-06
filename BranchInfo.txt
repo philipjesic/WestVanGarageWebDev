@@ -1,0 +1,1 @@
+This branch contains the initial development of the static page. (Html/CSS)
