@@ -2,17 +2,27 @@ div.Header{
   position: relative;
 }
 
+h1.MainTitle {
+/*font-size: 10%;*/
+font-size: 3.0vw;
+}
+
 div.FeaturedReview{
 position: relative;
 }
 
 img.porscheHeader {
-  display: block;
-   max-width: 50%;
-   max-height: 50%;
-   margin-left: auto;
-   margin-right: auto;
-   margin-top: 0%
+  max-width: 50%;
+  max-height: auto%;
+}
+
+img.instagramLink {
+  max-width: 50%;
+  max-height:50%;
+  position: absolute;
+  left: 50%;
+  margin-right: 0%;
+
 }
 
 h1.MainTitle {
@@ -52,6 +62,7 @@ li a {
   text-decoration: none;
   font-family: Segoe UI, Arial;
   font-style: italic;
+  font-size: auto;
 }
 
 li a:hover {
@@ -59,19 +70,24 @@ li a:hover {
     color: white;
 }
 
-h3.FeaturedText{
+h2.FeaturedText{
   position: absolute;
   font-family: Segoe UI, Arial;
-  top: 40%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  font-style: italic;
+  font-size: 3.0vw;
+  color: white;
+  top: 10%;
+  left: 5%;
+  text-shadow: 1px 1px red;
+  text-decoration: underline;
 }
 
-h2.FeaturedDescription{
+h3.FeaturedTextBelow{
   position: absolute;
   font-family: Segoe UI, Arial;
-  font-style: bold;
-  top: 45%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
+  font-size: 2.0vw;
+  color: white;
+  top: 25%;
+  left: 15%;
+  /*text-shadow: 1px 1px red;*/
+  }
