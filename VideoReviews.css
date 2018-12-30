@@ -1,45 +1,5 @@
 html, body {margin:0px; padding: 0px;}
 
-.MainTitle {
-  /*background-color: c8c8c8;*/
-  font-family: Segoe UI, Arial;
-  font-style: bold;
-  padding-left: 12.5%;
-  padding-bottom: 2.5%;
-  padding-top: 2.5%;
-  font-size: 50px;
-  margin-bottom: 0%;
-}
-
-ul.HeaderList {
-  list-style-type: none;
-    margin: 0;
-    padding: 0;
-    padding-top: 1%;
-    padding-left: 12.5%;
-    padding-bottom: 1%;
-    width: 100%;
-    background-color: #f1f1f1;
-    position: -webkit-sticky; /* Safari */
-    position: sticky;
-    top: 0;
-    z-index: 10;
-}
-
-li.HeaderListItems{
-  display: inline;
-}
-
-li a {
-  display: inline;
-  color: #000;
-  padding: 8px 16px;
-  text-decoration: none;
-  font-family: Segoe UI, Arial;
-  font-style: italic;
-  font-size: auto;
-}
-
 nav {
     background-color: #34495e;
     height: 80px;
@@ -86,14 +46,26 @@ nav {
 }
 
 /* Several different images */
-.bg-one {background-image: url(https://img.youtube.com/vi/DOZ7w6MaBgU/maxresdefault.jpg);}
-.bg-two {background-image: url(https://img.youtube.com/vi/4E9AQT3Sc-g/maxresdefault.jpg);}
-.bg-three {background-image: url(https://img.youtube.com/vi/iyLnOr9EDsw/maxresdefault.jpg);}
-.bg-four {background-image: url(https://img.youtube.com/vi/EQsq26pUAZg/maxresdefault.jpg);}
-.bg-five {background-image: url(https://img.youtube.com/vi/hRriZdn4LUU/maxresdefault.jpg);}
-.bg-six {background-image: url(https://img.youtube.com/vi/JgSU4W8s6fs/maxresdefault.jpg);}
-.bg-seven {background-image: url(https://img.youtube.com/vi/eh-F-XYNw4E/maxresdefault.jpg);}
-
+.bg-20 {background-image: url(https://img.youtube.com/vi/L04jsh9UBqs/maxresdefault.jpg);}
+.bg-19 {background-image: url(https://img.youtube.com/vi/DOZ7w6MaBgU/maxresdefault.jpg);}
+.bg-18 {background-image: url(https://img.youtube.com/vi/4E9AQT3Sc-g/maxresdefault.jpg);}
+.bg-17 {background-image: url(https://img.youtube.com/vi/iyLnOr9EDsw/maxresdefault.jpg);}
+.bg-16 {background-image: url(https://img.youtube.com/vi/EQsq26pUAZg/maxresdefault.jpg);}
+.bg-15 {background-image: url(https://img.youtube.com/vi/hRriZdn4LUU/maxresdefault.jpg);}
+.bg-14 {background-image: url(https://img.youtube.com/vi/JgSU4W8s6fs/maxresdefault.jpg);}
+.bg-13 {background-image: url(https://img.youtube.com/vi/eh-F-XYNw4E/hqdefault.jpg);}
+.bg-12 {background-image: url(https://img.youtube.com/vi/waY6JnuAYW8/maxresdefault.jpg);}
+.bg-11 {background-image: url(https://img.youtube.com/vi/B0awBNHWuTs/maxresdefault.jpg);}
+.bg-10 {background-image: url(https://img.youtube.com/vi/UVxovltnaIk/maxresdefault.jpg);}
+.bg-9 {background-image: url(https://img.youtube.com/vi/HdIYmXsruIA/maxresdefault.jpg);}
+.bg-8 {background-image: url(https://img.youtube.com/vi/V0tq_Dbr1Rg/maxresdefault.jpg);}
+.bg-7 {background-image: url(https://img.youtube.com/vi/m6QRATbmi7M/maxresdefault.jpg);}
+.bg-6 {background-image: url(https://img.youtube.com/vi/ngDVcXe0VZ4/maxresdefault.jpg);}
+.bg-5 {background-image: url(https://img.youtube.com/vi/iA59a4m7Qbo/maxresdefault.jpg);}
+.bg-4 {background-image: url(https://img.youtube.com/vi/IOaRia5Rohk/maxresdefault.jpg);}
+.bg-3 {background-image: url(https://img.youtube.com/vi/HAueTHhzW74/maxresdefault.jpg);}
+.bg-2 {background-image: url(https://img.youtube.com/vi/YyA77ncntrQ/maxresdefault.jpg);}
+.bg-1 {background-image: url(https://img.youtube.com/vi/nu5fudu4WPE/maxresdefault.jpg);}
 
 a.CarReviewPhoto {
     display: none;

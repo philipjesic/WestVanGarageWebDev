@@ -1,0 +1,113 @@
+html, body {margin:0px; padding: 0px;}
+
+nav {
+    background-color: #34495e;
+    height: 80px;
+        position: fixed;
+        width: 100vw;
+        top: 0;
+        z-index: 999;
+}
+
+#logo {height: 80px; margin-left: 20px;}
+
+.wrapper {
+    padding: 50px 50px;
+    max-width: 1200px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+        margin-top: 80px;
+}
+
+.right {float: right !important;}
+/* Image zoom on hover + Overlay colour */
+.parent {
+    width: 45%;
+    margin: 20px;
+    height: 300px;
+    border: 1px solid blue;
+    overflow: hidden;
+    position: relative;
+    float: left;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.child {
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+}
+
+/* Several different images */
+.bg-20 {background-image: url(https://img.youtube.com/vi/L04jsh9UBqs/maxresdefault.jpg);}
+.bg-19 {background-image: url(https://img.youtube.com/vi/DOZ7w6MaBgU/maxresdefault.jpg);}
+.bg-18 {background-image: url(https://img.youtube.com/vi/4E9AQT3Sc-g/maxresdefault.jpg);}
+.bg-17 {background-image: url(https://img.youtube.com/vi/iyLnOr9EDsw/maxresdefault.jpg);}
+.bg-16 {background-image: url(https://img.youtube.com/vi/EQsq26pUAZg/maxresdefault.jpg);}
+.bg-15 {background-image: url(https://img.youtube.com/vi/hRriZdn4LUU/maxresdefault.jpg);}
+.bg-14 {background-image: url(https://img.youtube.com/vi/JgSU4W8s6fs/maxresdefault.jpg);}
+.bg-13 {background-image: url(https://img.youtube.com/vi/eh-F-XYNw4E/hqdefault.jpg);}
+.bg-12 {background-image: url(https://img.youtube.com/vi/waY6JnuAYW8/maxresdefault.jpg);}
+.bg-11 {background-image: url(https://img.youtube.com/vi/B0awBNHWuTs/maxresdefault.jpg);}
+.bg-10 {background-image: url(https://img.youtube.com/vi/UVxovltnaIk/maxresdefault.jpg);}
+.bg-9 {background-image: url(https://img.youtube.com/vi/HdIYmXsruIA/maxresdefault.jpg);}
+.bg-8 {background-image: url(https://img.youtube.com/vi/V0tq_Dbr1Rg/maxresdefault.jpg);}
+.bg-7 {background-image: url(https://img.youtube.com/vi/m6QRATbmi7M/maxresdefault.jpg);}
+.bg-6 {background-image: url(https://img.youtube.com/vi/ngDVcXe0VZ4/maxresdefault.jpg);}
+.bg-5 {background-image: url(https://img.youtube.com/vi/iA59a4m7Qbo/maxresdefault.jpg);}
+.bg-4 {background-image: url(https://img.youtube.com/vi/IOaRia5Rohk/maxresdefault.jpg);}
+.bg-3 {background-image: url(https://img.youtube.com/vi/HAueTHhzW74/maxresdefault.jpg);}
+.bg-2 {background-image: url(https://img.youtube.com/vi/YyA77ncntrQ/maxresdefault.jpg);}
+.bg-1 {background-image: url(https://img.youtube.com/vi/nu5fudu4WPE/maxresdefault.jpg);}
+
+a.CarReviewPhoto {
+    display: none;
+    font-size: 35px;
+    color: #ffffff !important;
+    font-family: sans-serif;
+    text-align: center;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 50px;
+    cursor: pointer;
+    /*text-decoration: none;*/
+}
+
+
+.parent:hover .child, .parent:focus .child {
+    -ms-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+.parent:hover .child:before, .parent:focus .child:before {
+    display: block;
+}
+
+.parent:hover a, .parent:focus a {
+    display: block;
+}
+
+.child:before {
+    content: "";
+    display: none;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(52,73,94,0.75);
+}

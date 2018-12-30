@@ -1,0 +1,163 @@
+* {
+	-webkit-transition-property: all;
+	-webkit-transition-duration: .2s;
+  -moz-transition-timing-function: cubic-bezier(100,50,21,6);
+	-moz-transition-property: all;
+  -moz-transition-timing-function: cubic-bezier(100,50,21,6);
+}
+
+div.header{
+  background:#708090;
+  background-image: url("Images/IMG_6171-TestCrop7.JPG");
+  background-size: cover;
+  background-position: center;
+  padding-top:50px;
+  padding-bottom:150px;
+  background-repeat:no-repeat;
+  /*background: white;*/
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+}
+
+div.details{
+  background:#DCDCDC;
+  height: 100%;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+
+h1{
+/*
+  color:#c0c0c0;
+  font-weight:50;
+  font-style: italic;
+  font-family: Segoe UI, Arial;
+*/
+
+  font-style: bold;
+  font-family: Segoe UI, Arial;
+  font-style: italic;
+  font-size: 3.0vw;
+  color: white;
+  top: 10%;
+  left: 5%;
+  text-shadow: 1px 1px red;
+}
+
+.btn{
+  color:white;
+  background:rgba(0, 0, 0, 0.5);
+  padding:10px 20px;
+  font-size:12px;
+  text-decoration:none;
+  letter-spacing:2px;
+  text-transform:uppercase;
+}
+
+.btn:hover{
+  border:none;
+  background:rgba(0, 0, 0, 0.4);
+  background:#fff;
+  padding:20px 20px; #000;
+  color:#1b1b1b;
+}
+
+nav {
+    background-color: #34495e;
+    height: 80px;
+        position: fixed;
+        width: 100vw;
+        top: 0;
+        z-index: 999;
+}
+
+#logo {height: 80px; margin-left: 20px;}
+
+.wrapper {
+    padding: 50px 50px;
+    max-width: 1200px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+        margin-top: 80px;
+}
+
+.right {float: right !important;}
+/* Image zoom on hover + Overlay colour */
+.parent {
+    width: 45%;
+    margin: 20px;
+    height: 300px;
+    border: 1px solid blue;
+    overflow: hidden;
+    position: relative;
+    float: left;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.child {
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+}
+
+/* Several different images */
+.bg-one {background-image: url(https://img.youtube.com/vi/DOZ7w6MaBgU/maxresdefault.jpg);}
+.bg-two {background-image: url(https://img.youtube.com/vi/4E9AQT3Sc-g/maxresdefault.jpg);}
+.bg-three {background-image: url(https://img.youtube.com/vi/iyLnOr9EDsw/maxresdefault.jpg);}
+.bg-four {background-image: url(https://img.youtube.com/vi/EQsq26pUAZg/maxresdefault.jpg);}
+.bg-five {background-image: url(https://img.youtube.com/vi/hRriZdn4LUU/maxresdefault.jpg);}
+.bg-six {background-image: url(https://img.youtube.com/vi/JgSU4W8s6fs/maxresdefault.jpg);}
+.bg-seven {background-image: url(https://img.youtube.com/vi/eh-F-XYNw4E/maxresdefault.jpg);}
+
+
+a.CarReviewPhoto {
+    display: none;
+    font-size: 35px;
+    color: #ffffff !important;
+    font-family: sans-serif;
+    text-align: center;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 50px;
+    cursor: pointer;
+    /*text-decoration: none;*/
+}
+
+
+.parent:hover .child, .parent:focus .child {
+    -ms-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+.parent:hover .child:before, .parent:focus .child:before {
+    display: block;
+}
+
+.parent:hover a, .parent:focus a {
+    display: block;
+}
+
+.child:before {
+    content: "";
+    display: none;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(52,73,94,0.75);
+}

@@ -1,0 +1,280 @@
+<!--
+        | West Van Garage |
+        ------------------
+        YouTube: West Van Garage
+        instagram: westvangarage
+        ----------------------------------------
+        github: philipjesic/WestVanGarageWebDev
+        ----------------------------------------
+-->
+<!DOCTYPE html>
+<html>
+<title>West Van Garage</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+
+body, html {
+  height: 100%;
+  line-height: 1.8;
+}
+
+/* Full height image header */
+.bgimg-1 {
+  background-position: center;
+  background-size: cover;
+  /*background-image: url("/w3images/mac.jpg");*/
+  background-image: url("Images/porsche header.JPG");
+  min-height: 100%;
+}
+
+.w3-bar .w3-button {
+  padding: 16px;
+}
+</style>
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-card" id="myNavbar">
+    <a href="#home" class="w3-bar-item w3-button w3-wide">West Van Garage</a>
+    <!-- Right-sided navbar links -->
+    <div class="w3-right w3-hide-small">
+      <a href="#about" class="w3-bar-item w3-button"><i class="fa fa-garage"></i>What we do</a>
+      <a href="#Our Cars" class="w3-bar-item w3-button"><i class="fa fa-car"></i> Our Cars</a>
+      <a href="#VideoReviews" class="w3-bar-item w3-button"><i class="fa fa-th"></i> Video Reviews</a>
+      <a href="#photos" class="w3-bar-item w3-button"><i class="fa fa-instagram"></i> Photos</a>
+      <a href="#Articles" class="w3-bar-item w3-button"><i class="fa fa-book"></i> Articles</a>
+      <a href="#contact" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i> Contact Us</a>
+      <a href="App.html" class="w3-bar-item w3-button"><i class="fa fa-mobile"></i> App</a>
+    </div>
+    <!-- Hide right-floated links on small screens and replace them with a menu icon -->
+
+    <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+</div>
+
+<!-- Sidebar on small screens when clicking the menu icon -->
+<nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Close ×</a>
+  <a href="#about" class="w3-bar-item w3-button"><i class="fa fa-garage"></i>What we do</a>
+  <a href="#Our Cars" class="w3-bar-item w3-button"><i class="fa fa-car"></i> Our Cars</a>
+  <a href="#VideoReviews" class="w3-bar-item w3-button"><i class="fa fa-th"></i> Video Reviews</a>
+  <a href="#photos" class="w3-bar-item w3-button"><i class="fa fa-instagram"></i> Photos</a>
+  <a href="#Articles" class="w3-bar-item w3-button"><i class="fa fa-book"></i> Articles</a>
+  <a href="#contact" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i> Contact Us</a>
+  <a href="App.html" class="w3-bar-item w3-button"><i class="fa fa-mobile"></i> App</a>
+</nav>
+
+<!-- Header with full-height image -->
+<header class="bgimg-1 w3-display-container w3-grayscale-min" id="home">
+  <div class="w3-display-left w3-text-white" style="padding:48px">
+    <span class="w3-jumbo w3-hide-small">Featured Review</span><br>
+    <span class="w3-xxlarge w3-hide-large w3-hide-medium">Featured Review</span><br>
+    <span class="w3-large">2016 Porsche 911 GTS w/ TechArt Upgrades.</span>
+    <p><a href="https://youtu.be/iyLnOr9EDsw" target="_blank" class="w3-button w3-white w3-padding-large w3-large w3-margin-top w3-opacity w3-hover-opacity-off">Check out the full review!</a></p>
+  </div>
+  <div class="w3-display-bottomleft w3-text-grey w3-large" style="padding:24px 48px">
+    <a href="https://www.youtube.com/westvangarage" target="_blank" ><i class="fa fa-youtube w3-hover-opacity"></i></a>
+    <a href="https://www.instagram.com/westvangarage/" target="_blank" ><i class="fa fa-instagram w3-hover-opacity"></i></a>
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+  </div>
+</header>
+
+<!-- About Section -->
+<div class="w3-container" style="padding:128px 16px" id="about">
+  <h3 class="w3-center">Welcome To West Van Garage</h3>
+  <p class="w3-center w3-large">Here's what we do</p>
+  <div class="w3-row-padding w3-center" style="margin-top:64px">
+    <div class="w3-quarter">
+      <!--<i class="fa fa-desktop w3-margin-bottom w3-jumbo w3-center"></i>-->
+      <a href="#VideoReviews"><i class="fa fa-youtube w3-margin-bottom w3-hover-opacity w3-jumbo"></i></a>
+      <p class="w3-large">Video Reviews</p>
+      <p> We film and review cars of all makes and models. Check out our YouTube channel!</p>
+    </div>
+    <div class="w3-quarter">
+      <a href="#photos"><i class="fa fa-instagram w3-margin-bottom w3-hover-opacity w3-jumbo"></i></a>
+      <p class="w3-large">Photos</p>
+      <p> Check out our Instagram page where you will find a variety of car photos and videos, and also a behind the scenes look.</p>
+    </div>
+    <div class="w3-quarter">
+      <a href="#Articles"><i class="fa fa-desktop w3-hover-opacity w3-margin-bottom w3-jumbo"></i></a>
+      <p class="w3-large">Articles</p>
+      <p> Check out our opinions of various cars and events happening in the automotive industry.</p>
+    </div>
+    <div class="w3-quarter">
+      <!-- <i class="fa fa-cog w3-margin-bottom w3-jumbo"></i>-->
+      <i class="fa fa-code w3-hover-opacity w3-margin-bottom w3-jumbo"></i>
+      <p class="w3-large">Development</p>
+      <p> We're currently in the process of developing an application for smart phones. Click to find out more!</p>
+    </div>
+  </div>
+</div>
+
+<!-- Video Reviews Section - "Video Reviews" -->
+<div class="w3-container w3-light-grey" style="padding:128px 16px" id="VideoReviews">
+  <div class="w3-row-padding">
+    <div class="w3-col m6">
+      <h3>Video Reviews.</h3>
+      <p> Our YouTube channel features video reviews of all types of cars. We've got everthing from Sports Cars to SUV's and Trucks. Even Super Cars as well.</p>
+      <p><a href="VideoReviews.html" class="w3-button w3-black"><i class="fa fa-youtube"> </i> Video Reviews</a></p>
+    </div>
+    <div class="w3-col m6">
+      <img class="w3-image w3-round-large" src="Images/Cropped Raptor Drone Shot.jpg" alt="Buildings" width="700" height="394">
+    </div>
+  </div>
+</div>
+
+
+<!-- Photo Section -->
+<div class="w3-container" style="padding:128px 16px" id="photos">
+  <h3 class="w3-center">Photo Library</h3>
+  <!-- <p class="w3-center w3-large">What we've done for people</p>-->
+  <p class = "w3-center"><a href="https://www.instagram.com/westvangarage/" target = "_blank" class="w3-button w3-black"><i class="fa fa-instagram"> </i> Instagram Page</a></p>
+  <div class="w3-row-padding" style="margin-top:64px">
+    <div class="w3-col l3 m6">
+      <img src="https://instagram.com/p/BrYci3YnfAf/media/?size=l" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="BMW X5m">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="https://instagram.com/p/BqQhh5tj19t/media/?size=l" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="C63 AMG and C36 AMG">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="https://instagram.com/p/BqF71SjjZRo/media/?size=l" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="C63 AMG">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="https://instagram.com/p/BpoEdJAjy0t/media/?size=l" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Honda S2000">
+    </div>
+  </div>
+  <div class="w3-row-padding w3-section">
+    <div class="w3-col l3 m6">
+      <img src="https://instagram.com/p/BpIHjj-HMbq/media/?size=l" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Porsche 911 GTS w/ TechArt Upgrades">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="https://instagram.com/p/BohGWPoHfSS/media/?size=l" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Jeep Trackhawk">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="https://instagram.com/p/Bn3xyiGHPrg/media/?size=l" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="BMW M5, along with other M Cars">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="https://instagram.com/p/Bn0MwkwHWnF/media/?size=l" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Aston Marton DB-11">
+    </div>
+  </div>
+</div>
+
+<!-- Articles Section - "Articles" -->
+<div class="w3-container w3-light-grey" style="padding:128px 16px" id="Articles">
+  <div class="w3-row-padding">
+    <div class="w3-col m6">
+      <h3>Articles.</h3>
+      <p> See our opinions on cars and other automotive related things.</p>
+      <p><a href="Articles.html" class="w3-button w3-black"><i class="fa fa-desktop"> </i> Check out our Articles</a></p>
+    </div>
+    <div class="w3-col m6">
+      <img class="w3-image w3-round-large" src="Images/IMG_6171-TestCrop7.jpg" alt="Buildings" width="700" height="394">
+    </div>
+  </div>
+</div>
+
+<!-- Our Cars Section -->
+<div class="w3-container" style="padding:128px 16px" id="Our Cars">
+  <div class="w3-row-padding">
+    <div class="w3-col m4">
+      <h3>Our Cars.</h3>
+      <p>We give you an in-depth look at the ownership experience.</p>
+      <p><a href="Ownership-740i.html" class="w3-button w3-black"><i class="fa fa-youtube"> </i> Life with an 2001 BMW 740i MSport (E38)</a></p>
+      <p><a href="Ownership-C63.html" class="w3-button w3-black"><i class="fa fa-youtube"> </i> Life with an 2011 Mercedes C63 AMG     </a></p>
+    </div>
+    <div class="w3-col m4">
+      <img class="w3-image w3-round-large w3-padding-large" src="https://instagram.com/p/Bm2D3apHXKC/media/?size=l" alt="Buildings" width="500" height="250">
+    </div>
+    <div class="w3-col m4">
+      <img class="w3-image w3-round-large w3-padding-large" src="https://instagram.com/p/BdlZxniA5Pv/media/?size=l" alt="Buildings" width="500" height="250">
+    </div>
+  </div>
+</div>
+
+
+
+<!-- Modal for full size images on click-->
+<div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
+  <span class="w3-button w3-xxlarge w3-black w3-padding-large w3-display-topright" title="Close Modal Image">×</span>
+  <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+    <img id="img01" class="w3-image">
+    <p id="caption" class="w3-opacity w3-large"></p>
+  </div>
+</div>
+
+<!-- Contact Section -->
+<div class="w3-container w3-light-grey" style="padding:128px 16px" id="contact">
+  <h3 class="w3-center">CONTACT INFO</h3>
+  <p class="w3-center w3-large"> If there's any questions you have, feel free to email us.</p>
+  <p class="w3-center w3-large"> Please keep in mind that our work is copyrighted, and if you would like to use or feature it, please ask for permission.</p>
+  <div style="margin-top:48px">
+    <p><i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right"></i> West Vancouver, BC</p>
+    <p><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i> Email: WestVanGarage@gmail.com</p>
+    <!--
+    <br>
+    <form action="/action_page.php" target="_blank">
+      <p><input class="w3-input w3-border" type="text" placeholder="Name" required name="Name"></p>
+      <p><input class="w3-input w3-border" type="text" placeholder="Email" required name="Email"></p>
+      <p><input class="w3-input w3-border" type="text" placeholder="Subject" required name="Subject"></p>
+      <p><input class="w3-input w3-border" type="text" placeholder="Message" required name="Message"></p>
+      <p>
+        <button class="w3-button w3-black" type="submit">
+          <i class="fa fa-paper-plane"></i> SEND MESSAGE
+        </button>
+      </p>
+    </form>
+    <!-- Image of location/map -->
+    <!--<img src="/w3images/map.jpg" class="w3-image w3-greyscale" style="width:100%;margin-top:48px">
+    -->
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-64">
+  <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+  <div class="w3-xlarge w3-section">
+    <i class="fa fa-youtube w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+  </div>
+  <p> West Van Garage</p>
+  <!-- <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>-->
+</footer>
+
+<script>
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+
+
+// Toggle between showing and hiding the sidebar when clicking the menu icon
+var mySidebar = document.getElementById("mySidebar");
+
+function w3_open() {
+  if (mySidebar.style.display === 'block') {
+    mySidebar.style.display = 'none';
+  } else {
+    mySidebar.style.display = 'block';
+  }
+}
+
+// Close the sidebar with the close button
+function w3_close() {
+    mySidebar.style.display = "none";
+}
+</script>
+
+</body>
+</html>
